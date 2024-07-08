@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adicionar Contato</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Adicionar Personal</h1>
+            <form id="PersonalForm">
+                <label for= "codigoPersonal">Código Personal:</label>
+                <input type="number" id="codigoPersonal" name="codigoPersonal" required>
+
+                <label for="nomePersonal"> Nome Personal:</label>
+                <input type="text" id="nomePersonal" name="nomePersonal" required>
+
+                <label for="emailPersonal">Email Personal:</label>
+                <input type="text" id="emailPersonal" name="emailPersonal" required>
+
+                <button type="submit">Adicionar</button>
+            </form>
+            <p id="mensagem"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
